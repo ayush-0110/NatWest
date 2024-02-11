@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# MyWeather.ai
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MyWeather.ai is a responsive web application designed to provide real-time weather information. Utilizing public weather APIs, it offers current weather conditions, temperature variations, and visual representations of weather data for different states and cities.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Responsive Design**: Works on both desktop and mobile devices.
+- **Weather Search**: Users can search for cities to get current weather conditions, including temperature, wind speed, and more.
+- **Unit Conversion**: Supports switching between Celsius and Fahrenheit.
+- **Recent Searches**: Displays a list of the last five cities searched by the user.
+- **Statewise Summary**: Visualizes weather data for states with an interactive bar chart, showing detailed city weather information upon selection.
+- **Interactive Charts**: Provides graphical representations of weather data for deeper insights.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To set up the project locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:git clone https://github.com/ayush-0110/weatherisgood/tree/main
+2. Navigate to the project directory:cd myweather.ai
+3. Install dependencies:npm install
+4. Run the application:npm start
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+- **Navigation**: Use the navigation bar to switch between the home view and graphs.
+- **Search**: Enter a city name in the search bar to retrieve and display weather information.
+- **Unit Toggle**: Click on the unit toggle switch to change the temperature unit displayed.
+- **State Graphs**: Click on the "Graphs" button to view the statewise weather summary. Select a state to see detailed temperature information for its cities.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React.js
+- Bootstrap for styling
+- Recharts for data visualization
+- OpenWeatherMap API for weather data
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
+Contributions to MyWeather.ai are welcome! Please follow these steps to contribute:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-name`.
+3. Make your changes and commit them: `git commit -am 'Add some feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Submit a pull request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact
 
-## Learn More
+Your Name - Ayush Tiwari
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Project Link: [https://anewweatherapp.netlify.app/](https://anewweatherapp.netlify.app/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
